@@ -17,8 +17,6 @@ class TableComponent extends Component {
     this.setState({mainList: item})
   }
 
-  byDate = (a, b) => new Date(a.joiningDate) - new Date(b.joiningDate)
-
   filterItems = uid => {
     const {item} = this.props
 
@@ -36,7 +34,9 @@ class TableComponent extends Component {
       })
     } else if (uid === 'joiningDate') {
       this.setState({
-        mainList: item.sort(this.byDate),
+        mainList: item.sort(
+          (a, b) => new Date(a.joiningDate) - new Date(b.joiningDate),
+        ),
       })
     } else if (uid === 'role') {
       this.setState({
@@ -64,8 +64,10 @@ class TableComponent extends Component {
   render() {
     return (
       <table className="main-table-card">
-        <tr className="row1">{this.renderCases()}</tr>
-        {this.renderRemainingRows()}
+        <tbody>
+          <tr className="row1">{this.renderCases()}</tr>
+          {this.renderRemainingRows()}
+        </tbody>
       </table>
     )
   }
