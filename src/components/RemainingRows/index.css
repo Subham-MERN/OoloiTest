@@ -1,0 +1,50 @@
+.rowremaining {
+  display: flex;
+  max-width: 920px;
+  padding: 0;
+  margin: 0;
+}
+
+.dp {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #747474;
+  border-radius: 40px;
+  margin-right: 5px;
+}
+
+.pname {
+  height: 40px;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  border-radius: 0px;
+  padding: 8px 10px 8px 10px;
+}
+.pcity {
+  height: 40px;
+  width: 175px;
+  border-radius: 0px;
+  padding: 8px 10px 8px 10px;
+}
+.pmail {
+  height: 40px;
+  width: 220px;
+  border-radius: 0px;
+  padding: 8px 10px 8px 10px;
+  text-decoration-line: underline;
+  /* PrimaryColor/Text */
+  color: #0071cc;
+}
+.pdate {
+  height: 40px;
+  width: 175px;
+  border-radius: 0px;
+  padding: 8px 10px 8px 10px;
+}
+.prole {
+  height: 40px;
+  width: 175px;
+  border-radius: 0px;
+  padding: 8px 10px 8px 10px;
+}

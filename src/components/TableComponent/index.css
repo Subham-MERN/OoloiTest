@@ -1,0 +1,21 @@
+table,
+th,
+td {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+
+.main-table-card {
+  padding: 0;
+  width: 920px;
+  height: 320px;
+  table-layout: auto;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  border-style: none;
+}
+
+.row1 {
+  display: flex;
+  max-width: 920px;
+}

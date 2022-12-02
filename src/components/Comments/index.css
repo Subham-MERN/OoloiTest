@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.mainbg {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 100vh;
+}
+.maincard {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .maincard {
+    min-width: 750px;
+  }
+}
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+.minicard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.inpt {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.txtbox {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.btn {
+  width: 120px;
+  background-color: #0284c7;
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  padding: 10px;
+}
+.pic {
+  max-width: 150px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .pic {
+    min-width: 300px;
+    order: 2;
+    padding: 20px;
+  }
+}
+.ruler {
+  width: 100%;
+  color: black;
+}
+.comment-text-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.countrmod {
+  background-color: #0284c7;
+  color: white;
+  border-style: none;
+  border-radius: 3px;
+  text-align: center;
+  width: 18px;
+}
+.bottomcard {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.ulmod {
+  list-style-type: none;
+  padding: 0px;
+}

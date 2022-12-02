@@ -1,0 +1,86 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.maincard2 {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.initial {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto';
+  padding-top: 4px;
+}
+.listmod {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.namemod {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cambria';
+  color: black;
+  padding-left: 3px;
+}
+.datemod {
+  color: gray;
+  padding-left: 8px;
+  font-size: 10px;
+  font-style: italic;
+}
+.comntmod {
+  color: gray;
+  padding-left: 23px;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.btnmod {
+  background-color: white;
+  border-style: none;
+}
+.ruler {
+  width: 100%;
+  color: black;
+}
